@@ -1,5 +1,5 @@
 {
-    // 
+    
     
     class Car {
         make: string;
@@ -20,5 +20,5 @@
     const res = car.getCarAge(new Date().getFullYear());
     console.log(res)
 
-    // 
+    
 }

@@ -1,5 +1,4 @@
 {
-    //
 
     type Circle = {
         shape: "circle";
@@ -34,5 +33,5 @@
 
     console.log(rectangleArea);
 
-    // 
+
 }

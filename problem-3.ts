@@ -1,5 +1,5 @@
 {
-    // 
+    
 
     const countWordOccurrences = (sentence: string, word: string): number => {
         const splitWords = sentence.toLowerCase().split(' ')

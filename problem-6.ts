@@ -1,5 +1,5 @@
 {
-    //
+
 
     interface Profile {
         name: string;
@@ -19,5 +19,5 @@
     
     console.log(updateProfile(myProfile, { age: 26 }));
 
-    //
+
 }

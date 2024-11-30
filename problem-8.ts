@@ -1,6 +1,6 @@
 {
-    //
-    
+
+
     type Person = {
         name: string;
         age: number;
@@ -19,5 +19,5 @@
 
     console.log(validateKeys(person, ["name", "age"]));
 
-    //
+
 }
