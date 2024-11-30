@@ -2,7 +2,7 @@
 
 ## What Are Union Types?
 
-Union types are used when a value can be more than a single type. Union types are defined using the pipe ( | ) operator and allow a value to conform to multiple possible types. 
+Union types are used when a value can be more than a single type. Union types are defined using the pipe ( `|` ) operator and allow a value to conform to multiple possible types. 
 
 ```For example:
 const  person = (params: string | number): void => {
