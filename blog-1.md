@@ -1,6 +1,4 @@
-# Union Types
-
-## What Are Union Types?
+##  **What Are Union Types?**
 
 Union types are used when a value can be more than a single type. Union types are defined using the pipe ( `|` ) operator and allow a value to conform to multiple possible types. 
 
@@ -12,7 +10,7 @@ const  person = (params: string | number): void => {
 ```
  Here, the `value` parameter can be either a `string` or a `number`
 
- ## Why Union Types Are Significant
+ ### Why Union Types Are Significant
 
  Union types make it easy to work with functions or variables that need to accept a range of inputs.Union types are used when a value can be more than a single type.
 
@@ -20,7 +18,7 @@ const  person = (params: string | number): void => {
 
 ## **What Are Intersection Types?**
 
-Intersection types in TypeScript allow developers to combine multiple types into one using the `&` operator. The resulting type includes all properties from the intersected types, ensuring that any variable or object satisfies every condition of the combined types.
+Intersection types in TypeScript allow developers to combine multiple types into one using the (`&`) operator. The resulting type includes all properties from the intersected types, ensuring that any variable or object satisfies every condition of the combined types.
 
 ```Example
 type Type1 = { property1: string };
@@ -38,6 +36,6 @@ const example: CombinedType = {
 - Model Complex Objects: Create objects that share properties from different domains.
 - Promote Reusability: Combine smaller, reusable types into more complex ones.
 
-## Why Intersection Types Are Significant
+### Why Intersection Types Are Significant
 
 Intersection types are a cornerstone of TypeScript's type system, helping developers enforce strict and expressive type definitions. Use them to build reliable, scalable, and maintainable applications.
